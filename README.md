@@ -3,10 +3,18 @@
 - 👀 I’m interested in motorbikes, travel and photography. 
 - 💪 I'll show you here some of my skills through my projects.
 
-# 🏍️ Project#1 French second-hand motorcycle market vizualisation dashboard and price prediction.
+# 🏍️ Project#1: French second-hand motorcycle market vizualisation dashboard and price prediction.
 ## 💡 Introduction
-The main project that you can find here is the French second-hand motorcycle market vizualisation dashboard and price prediction.
+The main project that you can find here is the **French second-hand motorcycle market vizualisation dashboard and price prediction.**
 The objective is to predict the price of new motorbike ads and detect good deals 🤑!
+### How does it works?
+The project is separated into several microservices:
+- **Data gathering**: pre configured robots (also know as spiders) are scraping websites multiple times a days to gather market data.
+- **Data cleaning**: raw data from scraping is cleaned and prepared for vizualisation and mahcine learning.
+- **Data storing**: data is stored in a self hosted postgres database.
+- **Data vizualisation**: a dashboard to monitor spiders and vizualise data insights.
+- **Trainer**: machine learning algorythm training to predict the price.
+- **Rest API**: query the model from anywhere you need it!
 
 
 The project is composed of micro services such as:
