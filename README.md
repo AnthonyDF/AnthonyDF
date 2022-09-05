@@ -1,7 +1,7 @@
-👋 Hi, I’m Anthony DE FARIA and welcome to my repo and portfolio!<br> 
-👷 I'm an engineer, data analyst and Swiss knife.
-👀 I’m interested in motorbikes, travel and photography. 
-💪 I'll show you here some of my skills.
+- 👋 Hi, I’m Anthony DE FARIA and welcome to my repo and portfolio!
+- 👷 I'm an engineer, data analyst and Swiss knife.
+- 👀 I’m interested in motorbikes, travel and photography. 
+- 💪 I'll show you here some of my skills through my projects.
 
 # 🏍️ French second-hand motorcycle market vizualisation dashboard and price prediction.
 ## 💡 Introduction
