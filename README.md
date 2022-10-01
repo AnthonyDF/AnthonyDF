@@ -33,7 +33,7 @@ The project is separated into several microservices:
 
 - Of course, remove data out of physical and acceptable range.
 - Drop duplicates. Vendors tend to post the same ad on mutiple websites.
-- Standardization of brand and model names with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
+- Standardization of brand names with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
 
 ### 💻 Storing data
 
@@ -44,3 +44,8 @@ The data is stored in a self hosted postgres database.
 I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike.
 
 ### 👨‍🏫 Machine learning training (In progress)
+
+### TODO:
+- Implement celery and redis to improve the UX.
+- Standardize model names with fuzzy matching
+- Deploy ExtraTreesRegressor model to predict price
