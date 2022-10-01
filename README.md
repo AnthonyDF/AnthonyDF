@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Anthony DE FARIA and welcome to my repo and portfolio!
-- 👷 I'm an engineer, data analyst and Swiss knife.
-- 👀 I’m interested in motorbikes, travel and photography.
+- 👷 I'm an engineer and data analyst.
+- 👀 I’m interested in photography, travel and motorbikes.
 - 💪 I'll show you here some of my skills through my projects.
 
 # 🏍️ Project#1: French second-hand motorcycle market vizualisation dashboard and price prediction.
@@ -41,6 +41,6 @@ The data is stored in a self hosted postgres database.
 
 ### 📈 Vizualise spiders heart beats and market trends (In progress)
 
-With Plotly Dash 
+I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike.
 
 ### 👨‍🏫 Machine learning training (In progress)
