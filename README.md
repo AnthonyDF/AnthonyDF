@@ -1,7 +1,7 @@
-- 👋 Hi, I’m Anthony DE FARIA and welcome to my repo and portfolio!
-- 👷 I'm an engineer and data analyst.
-- 👀 I’m interested in photography, travel and motorbikes.
-- 💪 I'll show you here some of my skills through my projects.
+- 👋 Hello, welcome to my repo and portfolio!
+- 👷 I'm Anthony De Faria, an engineer and data scientist.
+- 👀 I’m passionate about [photography](https://www.anthonydefaria.com), travel and motorbikes.
+- 💪 I'll show you here the extent of my skills in data science through a real project.
 
 # 🏍️ Project#1: French second-hand motorcycle market vizualisation dashboard and price prediction.
 
@@ -25,7 +25,7 @@ The project is separated into several microservices:
 
 ### 🔒 Gathering data with scraping (private repo)
 
-[bike-price](https://github.com/AnthonyDF/bike_price) is a private repo with all my spiders ready to scrap the internet. It's a top secret repo but I can at least detail the strategy (keep it for yourself 🕵️). I use the famous [scrapy](https://fr.wikipedia.org/wiki/Scrapy) framework to configure and run my spiders 🕷️. They are clever and will never scrap twice the same url thanks to a fine tuned middleware. They have a special digestion pipeline to format the data and send it to a postgresql database. They are hosted on a scalable virtual machine aka Digitalocean [droplet](https://www.digitalocean.com/products/droplets) 💧. They are dedicated workers, they wake up early, they go to bed very late and will always listen to what they are asked to do by the **cron**. Sometimes the task can be tricky. It’s the case for javascript based websites. They are smart enough to run a scriptable web browser called [splash](https://github.com/scrapinghub/splash) to help them to scrap the data. Thanks to contiuous development they are super easy to deploy even after a small modification. Pushing on the master branch will trigger github actions to pull modifications on the droplet via ssh and then bluid containers with [docker](https://www.docker.com/) compose 🐋.
+[bike-price](https://github.com/AnthonyDF/bike_price) is a private repo with all my spiders ready to scrap the internet. It's a top secret repo but I can at least detail the strategy (keep it for yourself 🕵️). I use the famous [scrapy](https://fr.wikipedia.org/wiki/Scrapy) framework to configure and run my spiders 🕷️. They are clever and will never scrap twice the same url thanks to a fine tuned middleware. They have a special digestion pipeline to format the data and send it to a postgresql database. They are hosted on a scalable virtual machine aka Digitalocean [droplet](https://www.digitalocean.com/products/droplets) 💧. They are dedicated workers, they wake up early, they go to bed very late and will always listen to what they are asked to do by the **cron**. Sometimes the task can be tricky. It’s the case for javascript based websites. They are smart enough to run a scriptable web browser called [splash](https://github.com/scrapinghub/splash) to help them to scrap the data. Thanks to continuous development they are super easy to deploy even after a small modification. Pushing on the master branch will trigger github actions to pull modifications on the droplet via ssh and then bluid containers with [docker](https://www.docker.com/) compose 🐋.
 
 ### 🧹 Cleaning and transforming data
 
