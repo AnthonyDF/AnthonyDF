@@ -19,7 +19,7 @@ The project is separated into several microservices:
 - **Data storing**: data is stored in a self hosted postgres database.
 - **Data vizualisation**: data can be visualized through an interactive dashboard to monitor spiders and understand market trends.
 - **Traine (in progress)r**: data is used to train a machine learning model to predict the price.
-- **Rest API (in progress)**: query the model prediction from anywhere you need it!
+- **Rest API (in progress)**: query the price prediction from anywhere you need it!
 
 ## 🌐 Micoservices detailed
 
