@@ -30,7 +30,7 @@ The project is separated into several microservices:
 ### 🧹 Cleaning and transforming data
 
  Raw data is like an unpolished diamond. It needs some work to be done to prepare the data before vizualisation and machine learning. 
- [bike-price-cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and preapre the data after each scraping session as detailed below.
+ [bike-price-cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and prepare the data after each scraping session as detailed below.
 
 1 - Remove data out of physical and acceptable range.
 2 - Drop duplicates. Vendors tend to post the same ad on mutiple websites.
