@@ -30,18 +30,19 @@ The project is separated into several microservices:
 ### 🧹 Cleaning and transforming data
 
  Raw data is like an unpolished diamond. It needs some work to be done to prepare the data before vizualisation and machine learning. 
+ [bike-price_cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and preapre the data after each scraping session as detailed below.
 
-- Of course, remove data out of physical and acceptable range.
-- Drop duplicates. Vendors tend to post the same ad on mutiple websites.
-- Standardization of brand names with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
+1 - Remove data out of physical and acceptable range.
+2 - Drop duplicates. Vendors tend to post the same ad on mutiple websites.
+3 - Standardization of brand names and category with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
 
 ### 💻 Storing data
 
-The data is stored in a self hosted postgres database. 
+The data is stored in a **postgresql** database. 
 
 ### 📈 Vizualise spiders heart beats and market trends (In progress)
 
-I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike.
+I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash plotly (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike at the best price
 
 ### 👨‍🏫 Machine learning training (In progress)
 
@@ -49,3 +50,4 @@ I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash (be 
 - Implement celery and redis to improve the UX.
 - Standardize model names with fuzzy matching
 - Deploy ExtraTreesRegressor model to predict price
+- Check for PCA.
