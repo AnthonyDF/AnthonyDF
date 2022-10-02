@@ -34,7 +34,7 @@ The project is separated into several microservices:
 
 1. Remove data out of physical and acceptable range.
 2. Dropping duplicates (Vendors tend to post the same ad on mutiple websites).
-3. Standardization of brand names and category with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
+3. Standardization of brand names and categories with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
 
 ### 💻 Storing data
 
