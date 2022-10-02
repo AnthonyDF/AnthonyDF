@@ -17,9 +17,9 @@ The project is separated into several microservices:
 - **Data gathering**: pre configured robots (also know as spiders) are scraping 11 websites twice a day to gather market data.
 - **Data cleaning**: raw data from scraping is cleaned and prepared for vizualisation and machine learning.
 - **Data storing**: data is stored in a self hosted postgres database.
-- **Data vizualisation**: a dashboard to monitor spiders and vizualise data insights.
-- **Trainer**: machine learning algorythm training to predict the price.
-- **Rest API**: query the model from anywhere you need it!
+- **Data vizualisation**: data can be visualized through an interactive dashboard to monitor spiders and understand market trends.
+- **Traine (in progress)r**: data is used to train a machine learning model to predict the price.
+- **Rest API (in progress)**: query the model prediction from anywhere you need it!
 
 ## 🌐 Micoservices detailed
 
