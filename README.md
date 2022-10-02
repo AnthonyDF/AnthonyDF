@@ -1,7 +1,7 @@
 - 👋 Hello, welcome to my repo and portfolio!
 - 👷 I'm Anthony De Faria, an engineer and data scientist.
 - 👀 I’m passionate about [photography](https://www.anthonydefaria.com), travel and motorbikes.
-- 💪 I'll show you here the extent of my skills in data science through a real project.
+- 💪 I'll show you here the extent of my skills in data science through a use case project.
 
 # 🏍️ Project#1: French second-hand motorcycle market vizualisation dashboard and price prediction.
 
@@ -14,7 +14,7 @@ The objective is to predict the price of new motorbike ads and detect good deals
 
 The project is separated into several microservices:
 
-- **Data gathering**: pre configured robots (also know as spiders) are scraping websites multiple times a days to gather market data.
+- **Data gathering**: pre configured robots (also know as spiders) are scraping 11 websites twice a day to gather market data.
 - **Data cleaning**: raw data from scraping is cleaned and prepared for vizualisation and machine learning.
 - **Data storing**: data is stored in a self hosted postgres database.
 - **Data vizualisation**: a dashboard to monitor spiders and vizualise data insights.
