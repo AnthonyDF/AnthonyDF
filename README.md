@@ -42,7 +42,7 @@ The data is stored in a **postgresql** database.
 
 ### 📈 Vizualise spiders heart beats and market trends (In progress)
 
-[bike-price-dashboard](https://github.com/AnthonyDF/bike-price-dashboard) an [interactive dashboard](http://188.166.201.70:8080/) with Dash plotly (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike at the best price
+[bike-price-dashboard](https://github.com/AnthonyDF/bike-price-dashboard) is an [interactive dashboard](http://188.166.201.70:8080/) with Dash plotly (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike at the best price
 
 ### 👨‍🏫 Machine learning training (In progress)
 
