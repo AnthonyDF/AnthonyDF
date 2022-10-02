@@ -32,9 +32,9 @@ The project is separated into several microservices:
  Raw data is like an unpolished diamond. It needs some work to be done to prepare the data before vizualisation and machine learning. 
  [bike-price-cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and prepare the data after each scraping session as detailed below.
 
-1 - Remove data out of physical and acceptable range.
-2 - Drop duplicates. Vendors tend to post the same ad on mutiple websites.
-3 - Standardization of brand names and category with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
+1. Remove data out of physical and acceptable range.
+2. Drop duplicates. Vendors tend to post the same ad on mutiple websites.
+3. Standardization of brand names and category with advanced technique of fuzzy matching. Generaly speaking, the brand and model is a free text input.
 
 ### 💻 Storing data
 
