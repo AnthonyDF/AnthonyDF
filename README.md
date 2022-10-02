@@ -30,7 +30,7 @@ The project is separated into several microservices:
 ### 🧹 Cleaning and transforming data
 
  Raw data is like an unpolished diamond. It needs some work to be done to prepare the data before vizualisation and machine learning. 
- [bike-price_cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and preapre the data after each scraping session as detailed below.
+ [bike-price-cleaner](https://github.com/AnthonyDF/bike-price-cleaner) is a service that will automatically clean and preapre the data after each scraping session as detailed below.
 
 1 - Remove data out of physical and acceptable range.
 2 - Drop duplicates. Vendors tend to post the same ad on mutiple websites.
@@ -42,7 +42,7 @@ The data is stored in a **postgresql** database.
 
 ### 📈 Vizualise spiders heart beats and market trends (In progress)
 
-I created an [interactive dashboard](http://188.166.201.70:8080/) with Dash plotly (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike at the best price
+[bike-price-dashboard](https://github.com/AnthonyDF/bike-price-dashboard) an [interactive dashboard](http://188.166.201.70:8080/) with Dash plotly (be patient, it can takes a few secs to load). It allows to visualize spiders workload and scraping anomalies. You will also be able to dive into the second hand market stats and history, very handy if you look for a bike at the best price
 
 ### 👨‍🏫 Machine learning training (In progress)
 
